@@ -21,13 +21,13 @@ import Home from './Home/Home.jsx';
 import Blog from './Blog/Blog.jsx';
 
 const router = createBrowserRouter([
-  {
+     {
     path: "/",
     element: <App/>,
     children:[
       {path:"/", element: <Home /> },
       {path:"/blog", element: <Blog />},
-    ]
+   ],
   },
 ]);
 
