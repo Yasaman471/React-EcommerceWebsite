@@ -1,8 +1,11 @@
+import Banner from "./Banner"
 
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Banner />
+    </div>
   )
 }
 
